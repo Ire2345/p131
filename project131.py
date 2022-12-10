@@ -54,7 +54,7 @@ for star_data in temp_star_data_rows:
 star_masses = []
 star_radiuses = []
 star_names = []
-for star_data in enumerate in star_data_rows:
+for star_data in star_data_rows:
     star_masses.append(star_data[3])
     star_radiuses.append(star_data[4])
     star_names.append(star_data[5])
